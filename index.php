@@ -7,7 +7,7 @@
     <title>Kimaya Clinique</title>
     <!-- Favicon -->
 
-    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
+    <link rel="icon" type="image/x-icon" href="./image/KimayaFavicon.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -22,6 +22,9 @@
 
     <!-- swiper js  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- count api -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.8/countUp.umd.js"></script>
 
 
 
@@ -273,6 +276,59 @@
         .pop_upicon {
             width: 110px;
         }
+
+        .banner-img {
+            /* margin-top: -60px; */
+            padding: 0px;
+        }
+
+        .banner-head {
+            line-height: 60px;
+            font-size: 44px;
+        }
+
+        .banner-cont {
+            font-size: 24px;
+        }
+
+        .banner-span {
+            color: #F21D1D;
+            font-weight: mixed;
+        }
+
+        .counter {
+            font-size: 48px;
+        }
+
+        .rev-test {
+            margin-top: 60px;
+        }
+
+        .ban-testi {
+            margin-left: 50px;
+        }
+
+        .ban-test-cont {
+            font-size: 22px;
+        }
+
+        .ban-rev {
+            width: 130px;
+        }
+
+        .banner-maincont {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 75px;
+        }
+
+        .banner-btn {
+            text-decoration: none;
+            padding: 14px 28px;
+            background: #DDAB07;
+            color: white;
+            font-size: 18px;
+        }
     </style>
 </head>
 
@@ -312,7 +368,7 @@
                     <div class="d-flex header-cont align-items-center">
 
                         <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="booknow-btn">
-                            Book Appointment
+                            Book an Appointment
                         </a>
 
                     </div>
@@ -381,6 +437,38 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </div>
+
+
+    <!-- banner -->
+    <div class="container-fluid banner">
+        <div class="row">
+            <img src="./image/dban.webp" class="img-fluid banner-img" alt="best aesthetic clinic">
+
+            <div class="col-md-10 banner-maincont">
+                <h1 class="banner-head">
+                    Transform Your Beauty and Confidence with <br> Kimaya’s Radiant Glow Transformation Package!
+                </h1>
+                <p class="banner-cont py-3">
+                    New year <del>New</del> ( <span class="banner-span"> <b> Gold </b></span> ) you
+                </p>
+
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="banner-btn">
+                    Book an Appointment
+                </a>
+
+
+                <div class="rev-test d-flex">
+                    <img src="./image/ban-rev.webp" class="ban-rev" alt="best aesthetic clinic">
+                    <div class="ban-testi text-center">
+                        <div id="counter" class="counter"></div>
+                        <p class="ban-test-cont">
+                            Transformations So Far
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -652,6 +740,18 @@
         });
     });
 
+
+    // counter
+    const counter = new countUp.CountUp('counter', 5000, {
+        duration: 2,
+        suffix: "+"  // Add "+" at the end of the count
+    });
+
+    if (!counter.error) {
+        counter.start();
+    } else {
+        console.error(counter.error);
+    }
 
 
 
