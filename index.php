@@ -329,6 +329,36 @@
             color: white;
             font-size: 18px;
         }
+
+        .comp {
+            width: 335px;
+            padding: 7px 105px;
+            margin-left: -105px;
+            border-radius: 20px;
+            font-size: 22px;
+            text-transform: uppercase;
+            background: linear-gradient(0deg, #EFD78A 0%, #FFE285 41%, #FFD243 100%);
+            margin-top: 25px;
+        }
+
+        .comp-btn {
+            background: #000000;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 21px;
+        }
+
+        .comp-btn-nail {
+            background: #000000;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 21px;
+            margin-left: 25px;
+        }
+
+        .comp-cont {
+            margin-top: 40px;
+        }
     </style>
 </head>
 
@@ -468,6 +498,19 @@
                             Transformations So Far
                         </p>
                     </div>
+                </div>
+
+                <p class="comp">
+                    complimentary
+                </p>
+
+                <div class="d-flex comp-cont">
+                    <p class="comp-btn">
+                        PEDICURE
+                    </p>
+                    <p class="comp-btn-nail">
+                        NAILS
+                    </p>
                 </div>
             </div>
         </div>
@@ -743,7 +786,7 @@
 
     // counter
     const counter = new countUp.CountUp('counter', 5000, {
-        duration: 2,
+        duration: 4,
         suffix: "+"  // Add "+" at the end of the count
     });
 
