@@ -83,6 +83,10 @@
             font-family: 'Magenta' !important;
         }
 
+        body {
+            overflow-x: hidden;
+        }
+
         #headerall {
             background: #000000 !important;
             z-index: 7;
@@ -341,6 +345,7 @@
             margin-top: 25px;
         }
 
+
         .comp-btn {
             background: #000000;
             color: white;
@@ -358,6 +363,74 @@
 
         .comp-cont {
             margin-top: 40px;
+        }
+
+        .utp_head {
+            font-size: 48px;
+        }
+
+        .utp_card_header {
+            background: #DDAB07;
+            color: white;
+            font-size: 24px;
+            border-color: #DDAB07;
+        }
+
+        .utp_card {
+            border-color: #DDAB07;
+        }
+
+        .utp_card_body {
+            font-size: 20px;
+        }
+
+        .utp_card_text {
+            color: #616366;
+        }
+
+        .utp_card {
+            margin-top: -65px;
+        }
+
+
+        .comp-card {
+
+            padding: 7px 50px;
+            /* right: -15px;
+            position: absolute; */
+            border-radius: 20px;
+            font-size: 22px;
+            text-transform: uppercase;
+            background: #DDAB07;
+            color: white;
+            margin-top: 25px;
+        }
+
+        .comp-btn-nail_card {
+            background: #000000;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 21px;
+            width: 105px;
+            /* margin-left: 25px; */
+        }
+
+        .comp_card_cont {
+            width: 140px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .upt_card_app {
+            margin-top: 40px;
+        }
+
+        .upt_sep_col {
+            display: flex;
+            align-items: center;
+            /* Vertically centers the content */
+            justify-content: center;
+            /* Centers horizontally (optional) */
         }
     </style>
 </head>
@@ -512,6 +585,114 @@
                         NAILS
                     </p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ultimate Transformation Package -->
+    <div class="container my-5">
+        <div class="row">
+            <h1 class="utp_head text-center ">
+                What we have in this Ultimate Transformation Package?
+            </h1>
+            <div class="col-md-4 mt-5">
+                <img src="./image/utp1.webp" class="img-fluid" alt="">
+                <div class="card utp_card">
+                    <div class="card-header utp_card_header text-center">
+                        Laser Hair Removal
+                    </div>
+                    <div class="card-body utp_card_body p-4">
+                        <div class="card-title utp_card_title">
+                            <b>Smooth Skin, No More Shaving!</b>
+                        </div>
+                        <p class="card-text utp_card_text">Smooth, hair-free skin with no shaving or waxing! Our
+                            pain-free laser
+                            treatment reduces hair growth at the root for long-lasting results.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <img src="./image/utp2.webp" class="img-fluid" alt="">
+                <div class="card utp_card">
+                    <div class="card-header utp_card_header text-center">
+                        Gluta IV Skin Glow Treatment
+                    </div>
+                    <div class="card-body utp_card_body p-4">
+                        <div class="card-title utp_card_title">
+                            <b>Brighten, Detox, and Glow from Within!</b>
+                        </div>
+                        <p class="card-text utp_card_text">Brighten your skin, reduce dark spots, and detox from within!
+                            This treatment evens skin tone and fights signs of aging for a radiant glow.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <img src="./image/utp3.webp" class="img-fluid" alt="">
+                <div class="card utp_card">
+                    <div class="card-header utp_card_header text-center">
+                        Hair Regrowth Treatment
+                    </div>
+                    <div class="card-body utp_card_body p-4">
+                        <div class="card-title utp_card_title">
+                            <b>Stronger, Fuller Hair!</b>
+                        </div>
+                        <p class="card-text utp_card_text">Stronger, fuller hair starts here! This advanced treatment
+                            nourishes your scalp, strengthens roots, and promotes healthy hair growth.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <img src="./image/utp4.webp" class="img-fluid" alt="">
+                <div class="card utp_card">
+                    <div class="card-header utp_card_header text-center">
+                        Face Rejuvenation Therapy
+                    </div>
+                    <div class="card-body utp_card_body p-4">
+                        <div class="card-title utp_card_title">
+                            <b>Get a Natural Glow, Instantly!</b>
+                        </div>
+                        <p class="card-text utp_card_text">Get a youthful glow naturally! This treatment smooths fine
+                            lines, improves skin texture, and restores radiance using your body’s healing power.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <img src="./image/utp5.webp" class="img-fluid" alt="">
+                <div class="card utp_card">
+                    <div class="card-header utp_card_header text-center">
+                        Advanced Glow Facial
+                    </div>
+                    <div class="card-body utp_card_body p-4">
+                        <div class="card-title utp_card_title">
+                            <b>Deep Hydration & Instant Glow! </b>
+                        </div>
+                        <p class="card-text utp_card_text">Hydrate, refresh, and glow instantly! This deep-nourishing
+                            facial targets dullness and dryness, giving you smooth, radiant skin with no downtime.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5 upt_sep_col">
+                <div class="upt_sep_card">
+                    <p class="comp-card">
+                        Complimentary Services
+                    </p>
+                    <div class="comp_card_cont mx-auto">
+                        <p class="comp-btn mx-auto">
+                            PEDICURE
+                        </p>
+                        <p class="comp-btn-nail_card mx-auto ">
+                            NAILS
+                        </p>
+
+
+                    </div>
+                    <div class="text-center upt_card_app">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="banner-btn">
+                            Book an Appointment
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
