@@ -428,9 +428,11 @@
         .upt_sep_col {
             display: flex;
             align-items: center;
-            /* Vertically centers the content */
             justify-content: center;
-            /* Centers horizontally (optional) */
+        }
+
+        .this_testimonial {
+            background: rgba(221, 171, 7, 0.1);
         }
     </style>
 </head>
@@ -592,7 +594,7 @@
     <!-- Ultimate Transformation Package -->
     <div class="container my-5">
         <div class="row">
-            <h1 class="utp_head text-center ">
+            <h1 class="utp_head ">
                 What we have in this Ultimate Transformation Package?
             </h1>
             <div class="col-md-4 mt-5">
@@ -697,6 +699,38 @@
         </div>
     </div>
 
+    <!-- Before and After Transformations -->
+
+    <div class="container my-5">
+        <div class="row">
+            <h1 class="utp_head ">
+                Before and After Transformations
+            </h1>
+
+            <div class="col-md-4 mt-5">
+                <img src="./image/ba1.webp" class="img-fluid" alt="best aesthetic clinic">
+            </div>
+            <div class="col-md-4 mt-5">
+                <img src="./image/ba2.webp" class="img-fluid" alt="top aesthetic clinic">
+            </div>
+            <div class="col-md-4 mt-5">
+                <img src="./image/ba3.webp" class="img-fluid" alt="top aesthetic clinic">
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="banner-btn">
+                    Book an Appointment
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- This could be you! -->
+
+    <div class="container-fluid my-5 this_testimonial">
+        <div class="row p-5">
+            <h1>This could be you!</h1>
+        </div>
+    </div>
 </body>
 <style>
     footer {
