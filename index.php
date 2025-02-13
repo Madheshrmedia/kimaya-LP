@@ -892,116 +892,718 @@
         background: #CDB167;
     }
 </style>
-<!-- ---start FAQ frame------------ -->
-<div class="container" id="faqframe">
-    <h1>FAQ’s</h1>
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Laser Hair Removal
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>1. Is laser hair removal permanent?</strong>
-                    <p>Laser hair removal significantly reduces hair growth, and in many cases, results in permanent
-                        hair reduction. However, occasional maintenance sessions may be needed.</p>
-                    <strong>2. How many sessions do I need for best results?</strong>
-                    <p>Most clients require 6-8 sessions depending on hair type, skin tone, and the area being treated.
-                    </p>
-                    <strong>3. Does laser hair removal hurt?</strong>
-                    <p>The treatment is virtually painless, with only a mild warming sensation. Advanced cooling
-                        technology ensures maximum comfort.</p>
-                    <strong>4. Is it safe for all skin types?</strong>
-                    <p>Yes! Our laser technology is safe and effective for all skin tones and hair types.</p>
-                    <strong>5. Are there any side effects?</strong>
-                    <p>Temporary redness or slight swelling may occur but usually subsides within a few hours.</p>
+<!-- ---start slider frame------------ -->
+<div class="container">
+    <h1>Glow Stories from Our Clients</h1>
+ </div>
 
 
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Is microblading painful?
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    What should I expect after the treatment?
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                    Is microblading safe for all skin types??
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse plugin adds the appropriate classes that we use to style each element. These classes
-                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
-                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
-                    overflow.
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="base-template">
+	<div class="base-template__wrapper wrapper">
+		
+
+		<div class="base-template__content">
+			<div class="booking-slider">
+
+				<!-- Slider Navigation -->
+
+				<div class="booking-slider__nav slider-nav">
+					<div title="Newest offers" tabindex="0" class="slider-nav__item slider-nav__item_prev">
+						<svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14 26L2 14L14 2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</div>
+					<div title="Oldest offers" tabindex="0" class="slider-nav__item slider-nav__item_next">
+						<svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M2 26L14 14L2 2" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</div>
+				</div>
+
+				<!-- Slider Content -->
+
+				<div class="booking-slider__slider swiper">
+					<div class="booking-slider__wrapper swiper-wrapper">
+
+						<!-- Slider: Slide 1 -->
+
+						<div class="booking-slider__slide swiper-slide">
+							<div class="booking-slider__item booking-slider-item">
+							
+
+								<a title="Luxury Detached Home in Bournemouth" href="/" class="booking-slider-item__image" onclick="event.preventDefault();">
+									<img src="./image/slide1.webp" alt="slide1image" />
+								</a>
+
+								<div class="booking-slider-item__content">
+									<p>I’ve never felt more confident in my own skin! The Radiant Glow Transformation Package gave me everything I needed – smooth skin, glowing complexion, and healthier hair! The Gluta IV made my skin look brighter and more even, and I love the results from the Laser Hair Removal. It’s so easy and effective!</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slider: Slide 2 -->
+
+                        <div class="booking-slider__slide swiper-slide">
+							<div class="booking-slider__item booking-slider-item">
+							
+
+								<a title="Luxury Detached Home in Bournemouth" href="/" class="booking-slider-item__image" onclick="event.preventDefault();">
+									<img src="./image/slide2.webp" alt="slide2image" />
+								</a>
+
+								<div class="booking-slider-item__content">
+									<p>This package truly transformed my appearance. The Advanced Glow Facial left my skin feeling refreshed and rejuvenated, and I noticed a visible improvement in my hair after the regrowth treatment. I can't believe how smooth and youthful my face looks now. Highly recommend!</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slider: Slide 3 -->
+
+						<div class="booking-slider__slide swiper-slide">
+							<div class="booking-slider__item booking-slider-item">
+							
+
+								<a title="Luxury Detached Home in Bournemouth" href="/" class="booking-slider-item__image" onclick="event.preventDefault();">
+									<img src="./image/slide3.webp" alt="slide3image" />
+								</a>
+
+								<div class="booking-slider-item__content">
+									<p>I can’t thank the team enough for this amazing experience! The Face Rejuvenation Therapy worked wonders on my skin – it looks tighter and more radiant than ever before. Plus, the unlimited Laser Hair Removal is a game changer. I'm finally feeling more confident and glowing from the inside out!</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slider: Slide 4 -->
+
+						<div class="booking-slider__slide swiper-slide">
+							<div class="booking-slider__item booking-slider-item">
+							
+
+								<a title="Luxury Detached Home in Bournemouth" href="/" class="booking-slider-item__image" onclick="event.preventDefault();">
+									<img src="./image/slide4.webp" alt="slide4image" />
+								</a>
+
+								<div class="booking-slider-item__content">
+									<p>PRP facial is pure magic! My skin feels firmer, my acne scars have faded, and I have this youthful, radiant glow that I never had before. The results are so natural, and my skin has never felt better. Thank you, Kimaya, for this confidence boost!</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slider: Slide 5 -->
+
+						<div class="booking-slider__slide swiper-slide">
+							<div class="booking-slider__item booking-slider-item">
+							
+
+								<a title="Luxury Detached Home in Bournemouth" href="/" class="booking-slider-item__image" onclick="event.preventDefault();">
+									<img src="./image/slide5.webp" alt="slide5image" />
+								</a>
+
+								<div class="booking-slider-item__content">
+									<p>I’ve tried so many facials, but nothing compares to the MediFacial at Kimaya. My skin felt instantly refreshed, hydrated, and super soft. It’s the perfect skin reset, and I love how my face looks radiant and plump. Can’t wait for my next session!</p>
+								</div>
+							</div>
+						</div>
+
+					
+					</div>
+				</div>
+
+				<!-- Slider Pagination -->
+
+				<div class="booking-slider__pagination slider-pagination"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+    .base-template__wrapper {
+	max-width: 1560px;
+}
+
+.base-template__text {
+	margin-bottom: 60px;
+}
+
+/**
+ * Slider Instance
+ */
+
+.swiper {
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.booking-slider {
+	--color-gray: #b3b3b3;
+	--color-gray-dark: #FCF7E6;
+	--color-gray-bright: #d0d4d4;
+	--color-gray-light: #bbbcbf;
+
+	padding-inline: 98px;
+	position: relative;
+}
+
+.booking-slider__slide {
+	display: flex;
+	align-items: center;
+	min-height: 650px;
+}
+
+@media screen and (max-width: 991.9px) {
+	.booking-slider {
+		padding: 0;
+		margin-inline: -20px;
+	}
+}
+
+/**
+ * Slider Navigation
+ */
+
+.slider-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	translate: 0 -50%;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.slider-nav__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	aspect-ratio: 1;
+	width: 48px;
+	pointer-events: auto;
+	cursor: pointer;
+	transform-origin: center;
+	transition: all 0.3s ease-out;
+}
+
+.slider-nav__item.disabled {
+	pointer-events: none;
+	cursor: default;
+	opacity: 0.5;
+}
+
+.slider-nav__item path {
+	stroke: currentColor;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.slider-nav__item:not(.disabled):hover {
+		transform: scale(1.1);
+	}
+}
+
+@media (hover: none) {
+	.slider-nav__item:not(.disabled):active {
+		transform: scale(1.1);
+	}
+}
+
+@media screen and (max-width: 991.9px) {
+	.slider-nav {
+		display: none;
+	}
+}
+
+/**
+ * Slider Pagination
+ */
+
+.slider-pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 8px;
+	padding-top: 40px;
+}
+
+.swiper-pagination-lock {
+	display: none !important;
+}
+
+.slider-pagination__item {
+	width: 8px;
+	height: 8px;
+	border-radius: 99px;
+	background: #fff;
+	transition: all 0.3s ease-out;
+	opacity: 0.2;
+}
+
+.slider-pagination__item.active {
+	width: 30px;
+	opacity: 1;
+}
+
+/**
+ * Slider Item
+ */
+
+.swiper-slide {
+	width: auto;
+	height: auto;
+}
+
+@keyframes btn-arrow-move {
+	0% {
+		translate: 0;
+	}
+
+	100% {
+		translate: 100% -100%;
+	}
+}
+
+.booking-slider-item {
+	background: var(--color-gray-dark);
+	position: relative;
+	overflow: hidden;
+}
+
+.booking-slider-item__badge {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 4px 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: calc(24 / 14);
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	z-index: 1;
+}
+
+.booking-slider-item__badge::before {
+	content: "";
+	flex-shrink: 0;
+	display: block;
+	aspect-ratio: 1;
+	width: 18px;
+	background: url("https://bato-web-agency.github.io/bato-shared/img/slider-2/icon-stars.svg")
+		center center no-repeat;
+	background-size: 100%;
+}
+
+.booking-slider-item__image {
+	display: block;
+	height: 350px;
+	transition: height 0.6s ease-out;
+	overflow: hidden;
+}
+
+.booking-slider-item__image img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	transform-origin: center;
+	transition: transform 0.6s ease-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.booking-slider-item__image:hover img {
+		transform: scale(1.05);
+	}
+}
+
+.booking-slider-item__content {
+	padding: 30px;
+    color: #664A33;
+}
+
+@media screen and (max-width: 574.9px) {
+	.booking-slider-item__content {
+		padding: 30px 20px;
+	}
+}
+
+.booking-slider-item__price {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.3;
+	margin-bottom: 16px;
+}
+
+.booking-slider-item__price small {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.booking-slider-item__title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.3;
+	margin-bottom: 16px;
+}
+
+.booking-slider-item__title a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	transition: opacity 0.3s ease-out;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.booking-slider-item__title a:hover {
+		opacity: 0.75;
+	}
+}
+
+.booking-slider-item__address {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--color-gray);
+	margin-bottom: 16px;
+}
+
+.booking-slider-item__address-icon {
+	flex-shrink: 0;
+	width: 16px;
+}
+
+.booking-slider-item__address-icon img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.booking-slider-item__text {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.35;
+	color: var(--color-gray-bright);
+}
+
+.booking-slider-item__footer {
+	max-height: 150px;
+	overflow: hidden;
+	transition: max-height 0.6s ease-in;
+}
+
+.booking-slider-item__footer-inner {
+	padding-top: 24px;
+}
+
+.booking-slider-item__amenities {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	padding-block: 20px;
+	border: 1px solid #ffffff1a;
+	border-left: 0;
+	border-right: 0;
+	margin-bottom: 24px;
+}
+
+.booking-slider-item__amenity {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.4;
+	color: var(--color-gray-light);
+}
+
+.booking-slider-item__amenity-icon {
+	flex-shrink: 0;
+	width: 20px;
+}
+
+.booking-slider-item__amenity-icon img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.booking-slider-item__amenity-text {
+	padding-top: 2px;
+}
+
+@media screen and (max-width: 574.9px) {
+	.booking-slider-item__amenity {
+		gap: 6px;
+		font-size: 12px;
+	}
+
+	.booking-slider-item__amenity-icon {
+		width: 16px;
+	}
+
+	.booking-slider-item__amenity-text {
+		padding-top: 1px;
+	}
+}
+
+.booking-slider-item__btn {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	font-weight: 500;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.booking-slider-item__btn-icon {
+	flex-shrink: 0;
+	display: block;
+	aspect-ratio: 1;
+	width: 24px;
+	position: relative;
+	overflow: hidden;
+}
+
+.booking-slider-item__btn-icon::before,
+.booking-slider-item__btn-icon::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url("https://bato-web-agency.github.io/bato-shared/img/slider-2/icon-btn-arrow.svg")
+		center center no-repeat;
+	background-size: 100%;
+}
+
+.booking-slider-item__btn-icon::after {
+	position: absolute;
+	top: 100%;
+	right: 100%;
+}
+
+.booking-slider__slide:not(.swiper-slide-active) .booking-slider-item__image {
+	height:165px;
+}
+
+.booking-slider__slide:not(.swiper-slide-active) .booking-slider-item__footer {
+	max-height: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.booking-slider-item__btn:hover .booking-slider-item__btn-icon::before,
+	.booking-slider-item__btn:hover .booking-slider-item__btn-icon::after {
+		animation: btn-arrow-move 0.4s ease forwards;
+	}
+}
+
+@media (hover: none) {
+	.booking-slider-item__btn:active .booking-slider-item__btn-icon::before,
+	.booking-slider-item__btn:active .booking-slider-item__btn-icon::after {
+		animation: btn-arrow-move 0.4s ease forwards;
+	}
+}
+
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+	const sliders = document.querySelectorAll(".booking-slider");
+
+	if (!sliders.length) return;
+
+	const list = [];
+
+	sliders.forEach((element) => {
+		const [slider, prevEl, nextEl, pagination] = [
+			element.querySelector(".swiper"),
+			element.querySelector(".slider-nav__item_prev"),
+			element.querySelector(".slider-nav__item_next"),
+			element.querySelector(".slider-pagination")
+		];
+
+		list.push(
+			new Swiper(slider, {
+				slidesPerView: 1.15,
+				spaceBetween: 20,
+				slidesOffsetBefore: 20,
+				slidesOffsetAfter: 20,
+				speed: 600,
+				observer: true,
+				watchOverflow: true,
+				watchSlidesProgress: true,
+				navigation: { nextEl, prevEl, disabledClass: "disabled" },
+				pagination: {
+					el: pagination,
+					type: "bullets",
+					modifierClass: "slider-pagination",
+					bulletClass: "slider-pagination__item",
+					bulletActiveClass: "active",
+					clickable: true
+				},
+				breakpoints: {
+					575: {
+						slidesPerView: 1.5
+					},
+					992: {
+						slidesPerView: 2,
+						slidesOffsetBefore: 0,
+						slidesOffsetAfter: 0
+					},
+					1366: {
+						slidesPerView: 3,
+						spaceBetween: 40,
+						slidesOffsetBefore: 0,
+						slidesOffsetAfter: 0
+					}
+				}
+			})
+		);
+	});
+});
+
+</script>
+<!-- ---end slider frame------------ -->
+<div class="buttongrp">
+<button type="button" class="btn btn-secondary" id="buttonbook" data-bs-toggle="modal" data-bs-target="#exampleModal">Book an Appointment</button>
 </div>
 <style>
-    #faqframe {
+    .buttongrp{
+        text-align:center;
+    }
+    #buttonbook{
+        font-size: 18px;
+    background-color: #DDAB07;
+    color: #FFFFFF;
+    border:1px solid #FAD064;
+    padding: 8px 20px;
+    border-radius:0 !important;
+    }
+</style>
+ <!-- ---start FAQ frame------------ -->
+ <div class="container" id="faqframe">
+    <h1>FAQ’s</h1>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Laser Hair Removal
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>1. Is laser hair removal permanent?</strong> 
+        <p>Laser hair removal significantly reduces hair growth, and in many cases, results in permanent hair reduction. However, occasional maintenance sessions may be needed.</p>
+        <strong>2. How many sessions do I need for best results?</strong> 
+        <p>Most clients require 6-8 sessions depending on hair type, skin tone, and the area being treated.</p>
+        <strong>3. Does laser hair removal hurt?</strong> 
+        <p>The treatment is virtually painless, with only a mild warming sensation. Advanced cooling technology ensures maximum comfort.</p>
+        <strong>4. Is it safe for all skin types?</strong> 
+        <p>Yes! Our laser technology is safe and effective for all skin tones and hair types.</p>
+        <strong>5. Are there any side effects?</strong> 
+        <p>Temporary redness or slight swelling may occur but usually subsides within a few hours.</p>
+       
+    
+    </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Glutathione IV
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>1. What is Glutathione IV therapy?</strong> 
+      <p>Glutathione IV is a powerful antioxidant treatment that detoxifies the body, boosts the immune system, and brightens the skin.</p>
+      <strong>2. How does it improve skin?</strong> 
+      <p>It helps reduce pigmentation, dark spots, and dullness, giving you a radiant, even skin tone.</p>
+      <strong>3. How many sessions do I need for visible results?</strong> 
+      <p>Most clients see improvements within 4-6 sessions, but results vary based on individual skin conditions.</p>
+      <strong>4. Is Glutathione IV safe?</strong> 
+      <p>Yes, it is completely safe when administered by professionals.</p>
+      <strong>5. Can it be combined with other treatments?</strong> 
+      <p>Yes! Glutathione IV works well with PRP, laser treatments, and facials for enhanced skin health.</p>
+          </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      PRP for Hair
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>1. How does PRP help with hair loss?</strong>
+        <p>PRP (Platelet-Rich Plasma) is extracted from your own blood and injected into the scalp to stimulate hair follicles, strengthen roots, and promote regrowth.</p>
+        <strong>2. How many PRP sessions are needed for hair regrowth?</strong>
+        <p>A minimum of 3-6 sessions, spaced 4 weeks apart, is recommended for visible improvements.</p>
+        <strong>3. Is PRP treatment painful?</strong>
+        <p>PRP involves minimal discomfort, and a numbing cream is applied to make the procedure comfortable.</p>
+        <strong>4. Are the results permanent?</strong>
+        <p>PRP slows hair loss and stimulates new growth, but maintenance sessions may be needed.</p>
+        <strong>5. Can PRP be combined with other treatments?</strong>
+        <p>Yes! PRP works best when combined with laser therapy, medications, or hair growth serums.</p>
+         </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+      PRP for Face (Vampire Facial)
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>1. What is a PRP facial?</strong>
+        <p>PRP facial uses your own plasma to boost collagen production, reduce fine lines, and improve skin texture.</p>
+        <strong>2. What are the benefits of PRP for the face?</strong>
+        <p><ul>
+            <li>Reduces fine lines and wrinkles</li>
+            <li>Improves skin elasticity and texture</li>
+            <li>Minimizes acne scars and pigmentation</li>
+            <li>Promotes a radiant, youthful glow</li>
+        </ul></p>
+        <strong>3. How many PRP facial sessions do I need?</strong>
+        <p>For best results, 3-4 sessions are recommended.</p>
+        <strong>4. Is there downtime after PRP facial?</strong>
+        <p>There is minimal downtime. Expect slight redness for 24-48 hours before your skin starts glowing!</p>
+        <strong>5. Who is the best candidate for PRP facial?</strong>
+        <p>Anyone looking to rejuvenate skin, improve texture, and reduce signs of aging is a great candidate.</p>
+           </div>
+    </div>
+  </div>
+</div>
+</div>
+<style>
+    #faqframe{
         margin: 3rem auto;
     }
-
     .accordion {
         margin-top: 3rem;
     }
 
     .accordion-button:not(.collapsed) {
-        background-color: #DDAB07;
-        box-shadow: none;
-        color: #FFFFFF;
-        font-size: 25px;
-        font-weight: 600;
+        background-color: #DDAB07 ;
+        box-shadow:none;
+        color:#FFFFFF;
+        font-size:25px;
+        font-weight:600;
     }
-
-    .accordion-body {
-        font-size: 19px;
+    .accordion-body{
+        font-size:19px;
     }
-
-    .accordion-button {
-        font-size: 25px;
+    .accordion-button{
+        font-size:25px;
     }
 </style>
 <!-- ---end FAQ frame------------ -->
