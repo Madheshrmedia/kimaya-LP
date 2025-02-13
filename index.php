@@ -1041,8 +1041,7 @@
                             Seconds
                         </div>
                     </div>
-                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        class="btn btn-secondary" id="bookbutton">Book an Appointment</button>
+                    <button type="button" class="btn btn-secondary" id="bookbutton">Book an Appointment</button>
                 </div>
 
             </div>
