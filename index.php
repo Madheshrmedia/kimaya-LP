@@ -1538,48 +1538,75 @@
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      PRP for Hair
+      Hair Regrowth Treatment 
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>1. How does PRP help with hair loss?</strong>
-        <p>PRP (Platelet-Rich Plasma) is extracted from your own blood and injected into the scalp to stimulate hair follicles, strengthen roots, and promote regrowth.</p>
-        <strong>2. How many PRP sessions are needed for hair regrowth?</strong>
+        <strong>1. How does Hair Regrowth Treatment help with hair loss?</strong>
+        <p>Hair Regrowth Treatment (Platelet-Rich Plasma) is extracted from your own blood and injected into the scalp to stimulate hair follicles, strengthen roots, and promote regrowth.</p>
+        <strong>2. How many Hair Regrowth Treatment sessions are needed for hair regrowth?</strong>
         <p>A minimum of 3-6 sessions, spaced 4 weeks apart, is recommended for visible improvements.</p>
-        <strong>3. Is PRP treatment painful?</strong>
-        <p>PRP involves minimal discomfort, and a numbing cream is applied to make the procedure comfortable.</p>
+        <strong>3. Is Hair Regrowth Treatment treatment painful?</strong>
+        <p>Hair Regrowth Treatment involves minimal discomfort, and a numbing cream is applied to make the procedure comfortable.</p>
         <strong>4. Are the results permanent?</strong>
-        <p>PRP slows hair loss and stimulates new growth, but maintenance sessions may be needed.</p>
-        <strong>5. Can PRP be combined with other treatments?</strong>
-        <p>Yes! PRP works best when combined with laser therapy, medications, or hair growth serums.</p>
+        <p>Hair Regrowth Treatment slows hair loss and stimulates new growth, but maintenance sessions may be needed.</p>
+        <strong>5. Can Hair Regrowth Treatment be combined with other treatments?</strong>
+        <p>Yes! Hair Regrowth Treatment works best when combined with laser therapy, medications, or hair growth serums.</p>
          </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-      PRP for Face (Vampire Facial)
+      Face Rejuvenation Therapy
       </button>
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>1. What is a PRP facial?</strong>
-        <p>PRP facial uses your own plasma to boost collagen production, reduce fine lines, and improve skin texture.</p>
-        <strong>2. What are the benefits of PRP for the face?</strong>
+        <strong>1. What is a Face Rejuvenation Therapy?</strong>
+        <p>Hair Regrowth Treatment facial uses your own plasma to boost collagen production, reduce fine lines, and improve skin texture.</p>
+        <strong>2. What are the benefits of Face Rejuvenation Therapy?</strong>
         <p><ul>
             <li>Reduces fine lines and wrinkles</li>
             <li>Improves skin elasticity and texture</li>
             <li>Minimizes acne scars and pigmentation</li>
             <li>Promotes a radiant, youthful glow</li>
         </ul></p>
-        <strong>3. How many PRP facial sessions do I need?</strong>
+        <strong>3. How many Face Rejuvenation Therapy sessions do I need?</strong>
         <p>For best results, 3-4 sessions are recommended.</p>
-        <strong>4. Is there downtime after PRP facial?</strong>
+        <strong>4. Is there downtime after Face Rejuvenation Therapy?</strong>
         <p>There is minimal downtime. Expect slight redness for 24-48 hours before your skin starts glowing!</p>
-        <strong>5. Who is the best candidate for PRP facial?</strong>
+        <strong>5. Who is the best candidate for Face Rejuvenation Therapy?</strong>
         <p>Anyone looking to rejuvenate skin, improve texture, and reduce signs of aging is a great candidate.</p>
            </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+      Advanced Glow Facial
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>1. How is a Advanced Glow Facial different from a regular facial?</strong>
+        <p>Unlike regular facials, MediFacials use advanced skincare technology and medical-grade products for deeper hydration and rejuvenation.</p>
+        <strong>2. What skin concerns does a Advanced Glow Facialtreat?</strong>
+        <p>
+            <ul>
+                <li>Dry and dull skin</li>
+                <li>Acne and pigmentation</li>
+                <li>Uneven texture and fine lines</li>
+            </ul>
+        </p>
+        <strong>3. How often should I get a Advanced Glow Facial?</strong>
+        <p>Every 4-6 weeks for long-lasting skin health and glow.</p>
+        <strong>4. Is there any downtime?</strong>
+        <p>No! You can return to your routine immediately after the session.</p>
+        <strong>5. Can I combine a Advanced Glow Facial with other treatments?</strong>
+        <p>Yes! It pairs well with Hair Regrowth Treatment, laser treatments, and chemical peels for enhanced skin rejuvenation.</p>
+         </div>
     </div>
   </div>
 </div>
