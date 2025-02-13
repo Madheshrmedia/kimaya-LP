@@ -866,6 +866,242 @@
         background: #CDB167;
     }
 </style>
+ <!-- ---start FAQ frame------------ -->
+ <div class="container" id="faqframe">
+    <h1>FAQ’s</h1>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Laser Hair Removal
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>1. Is laser hair removal permanent?</strong> 
+        <p>Laser hair removal significantly reduces hair growth, and in many cases, results in permanent hair reduction. However, occasional maintenance sessions may be needed.</p>
+        <strong>2. How many sessions do I need for best results?</strong> 
+        <p>Most clients require 6-8 sessions depending on hair type, skin tone, and the area being treated.</p>
+        <strong>3. Does laser hair removal hurt?</strong> 
+        <p>The treatment is virtually painless, with only a mild warming sensation. Advanced cooling technology ensures maximum comfort.</p>
+        <strong>4. Is it safe for all skin types?</strong> 
+        <p>Yes! Our laser technology is safe and effective for all skin tones and hair types.</p>
+        <strong>5. Are there any side effects?</strong> 
+        <p>Temporary redness or slight swelling may occur but usually subsides within a few hours.</p>
+       
+    
+    </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Is microblading painful?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      What should I expect after the treatment?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+      Is microblading safe for all skin types??
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<style>
+    #faqframe{
+        margin: 3rem auto;
+    }
+    .accordion {
+        margin-top: 3rem;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #DDAB07 ;
+        box-shadow:none;
+        color:#FFFFFF;
+        font-size:25px;
+        font-weight:600;
+    }
+    .accordion-body{
+        font-size:19px;
+    }
+    .accordion-button{
+        font-size:25px;
+    }
+</style>
+<!-- ---end FAQ frame------------ -->
+<!-- ---start counter frame------------ -->
+<div class="background-container" id="counterframe">
+        <div class="content">
+            <div class="row">
+                <div class="column" id="colunm1">
+                <p style="visibility:hidden">Offer Expires in</p>
+                    <h1 class="text">Special Discount</h1>
+                    <button type="button" class="btn btn-secondary" id="limitbutton">Limited Time Only!</button>
+                </div>
+                <div class="column" id="colunm2">
+              <p>Offer Expires in</p>
+<div class="clock-container">
+  <div class="clock-col" style="display:none">
+    <div class="clock-days clock-timer">&nbsp;</div>
+    <div class="clock-label label-days">
+      Days
+    </div>
+  </div>
+  <div class="clock-col">
+    <div class="clock-hours clock-timer">&nbsp;</div>
+    <div class="clock-label label-hour">
+      Hours
+    </div>
+  </div>
+  <div class="clock-col">
+    <div class="clock-minutes clock-timer">&nbsp;</div>
+    <div class="clock-label label-minutes">
+      Minutes
+    </div>
+  </div>
+  <div class="clock-col">
+    <div class="clock-seconds clock-timer">&nbsp;</div>
+    <div class="clock-label label-seconds">
+      Seconds
+    </div>
+  </div>
+  <button type="button" class="btn btn-secondary" id="bookbutton">Book an Appointment</button>
+</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <style>
+        .clock-container{
+            position: relative;
+            display: flex;
+            gap: 51px;
+    justify-content: center;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin: auto;
+    padding:3rem;
+
+    width: 75%;
+        }
+        #bookbutton{
+            position: absolute;
+            padding: 12px 15px;
+    width: 70%;
+            bottom: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #FFFFFF;
+            background-color: #DDAB07;
+            text-transform: uppercase;
+            border-radius:0px;
+            border: none;
+
+        }
+        .clock-timer{
+            font-size:55px;
+            font-weight:bold;
+        }
+#colunm2{
+    text-align: center !important;
+}
+#colunm2 p{
+    font-size: 28px;
+}
+        .text{
+            font-size: 60px;
+        }
+        /* Parent container with background image */
+        .background-container {
+            background: url('./image/timerbanner.webp') no-repeat center center/cover;
+            width: 100%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* Inner content */
+        #counterframe .content {
+            width: 98%;
+            max-width: 1200px;
+          
+            padding: 20px;
+      
+        }
+
+        /* Row styling */
+        #counterframe .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        /* Column styling */
+       #counterframe .column {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+         
+            text-align: left;
+        }
+        #limitbutton{
+            padding: 13px 16px;
+            margin-top:2rem;
+            background-color: #FFF4D6;
+            color:#122132;
+            border:1px solid #000000;
+            font-weight:bold;
+        }
+        #colunm1{
+            font-weight:bold;
+        }
+.clock-label{
+    color: #FFC877;
+    text-transform: uppercase;
+}
+        @media (max-width: 768px) {
+            #counterframe    .row {
+                flex-direction: column;
+            }
+            .text{
+            font-size: 40px;
+        }
+        .clock-timer{
+            font-size:35px;
+        }
+        }
+    </style>
+<!-- ---end counter frame------------ -->
 
 <footer>
     <div class="container">
@@ -1090,6 +1326,70 @@
 
 
 
+
+</script>
+<script>
+    window.onload = function () {
+  const controller = new AbortController();
+  // Set the date we're counting down to
+  const countDownDate = new Date("Feb 27, 2026 08:30:00").getTime();
+  const clockDaysElement = document.querySelector(".clock-days");
+  const clockHoursElement = document.querySelector(".clock-hours");
+  const clockMinutesElement = document.querySelector(".clock-minutes");
+  const clockSecondsElement = document.querySelector(".clock-seconds");
+  // Create an animation callback every second:
+  animationInterval(1000, controller.signal, (time) => {
+    // Get today's date and time
+    let now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    let distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor(
+      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the results
+    clockDaysElement.textContent = days;
+    clockHoursElement.textContent = hours;
+    clockMinutesElement.textContent = minutes;
+    clockSecondsElement.textContent = seconds;
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+      controller.abort();
+      document.querySelector(".clock-container").innerHTML = "EXPIRED";
+    }
+  });
+};
+
+function animationInterval(ms, signal, callback) {
+  // Prefer currentTime, as it'll better sync animtions queued in the
+  // same frame, but if it isn't supported, performance.now() is fine.
+  const start = document.timeline
+    ? document.timeline.currentTime
+    : performance.now();
+
+  function frame(time) {
+    if (signal.aborted) return;
+    callback(time);
+    scheduleFrame(time);
+  }
+
+  function scheduleFrame(time) {
+    const elapsed = time - start;
+    const roundedElapsed = Math.round(elapsed / ms) * ms;
+    const targetNext = start + roundedElapsed + ms;
+    const delay = targetNext - performance.now();
+    setTimeout(() => requestAnimationFrame(frame), delay);
+  }
+
+  scheduleFrame(start);
+}
 
 </script>
 
