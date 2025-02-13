@@ -434,6 +434,26 @@
         .this_testimonial {
             background: rgba(221, 171, 7, 0.1);
         }
+
+        .tis_test_card {
+            border-radius: 15px;
+            border-color: #DDAB07;
+        }
+
+        .tis_tci {
+            width: 50px;
+        }
+
+        .tis_test_card_txt {
+            font-size: 20px;
+            color: #664A33;
+        }
+
+        .card-footer {
+            background: #EFD78A;
+            border-bottom-left-radius: 13px !important;
+            border-bottom-right-radius: 13px !important;
+        }
     </style>
 </head>
 
@@ -729,6 +749,62 @@
     <div class="container-fluid my-5 this_testimonial">
         <div class="row p-5">
             <h1>This could be you!</h1>
+
+            <div class="col-md-4 my-auto tis_test_col">
+                <div class="card tis_test_card">
+                    <img class="card-img-top py-4 px-5" src="./image/ttc1.webp" alt="Card image cap">
+                    <div class="card-body px-5">
+
+                        <p class="card-text tis_test_card_txt ">Having wonderful experiences with the clinic stating off
+                            with my nails
+                            which always i get flawless and beautiful nails by Jenni akka my saviour. Seconding about
+                            skin treatments where I struggled with my acne for years didn’t find solution and not
+                            believed any treatments too. But the skin peeling treatment showed my skin which I use to
+                            have during my school days. Thanks kimaya!</p>
+
+                    </div>
+                    <div class="card-footer d-flex align-items-end text-muted px-5">
+                        <img src="./image/ttci1.png" class="tis_tci" alt="">
+                        <p class="ps-3">- Shruthi Chandrasekar </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 tis_test_col my-auto">
+                <div class="card tis_test_card">
+                    <img class="card-img-top py-4 px-5" src="./image/ttc2.webp" alt="Card image cap">
+                    <div class="card-body px-5">
+
+                        <p class="card-text tis_test_card_txt ">I just had the most amazing facial experience! From
+                            start to finish, it was pure relaxation. The esthetician was knowledgeable and tailored the
+                            treatment to suit my skin type. My skin feels rejuvenated, hydrated, and so much smoother.
+                            The products used were high-quality and left a lovely glow without any irritation. It’s like
+                            my face got a fresh start! I highly recommend this facial to anyone looking to pamper
+                            themselves and give their skin the care it deserves.</p>
+
+                    </div>
+                    <div class="card-footer d-flex align-items-end text-muted px-5">
+                        <img src="./image/ttci2.webp" class="tis_tci" alt="">
+                        <p class="ps-3">-Preethika Palaniswamy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 tis_test_col my-auto">
+                <div class="card tis_test_card">
+                    <img class="card-img-top py-4 px-5" src="./image/ttc3.webp" alt="Card image cap">
+                    <div class="card-body px-5">
+
+                        <p class="card-text tis_test_card_txt ">I came to know about this place through my friend.. Came
+                            here to get consultation for my skin and was super happy with their warm welcome and their
+                            service . Admin Nandhini and Manager Aishwarya was soo professional and helped me with my
+                            package. Highly recommended place for all your skin and hair concern .</p>
+
+                    </div>
+                    <div class="card-footer d-flex align-items-end text-muted px-5">
+                        <img src="./image/ttci3.png" class="tis_tci" alt="">
+                        <p class="ps-3">-A R M Vicky</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
