@@ -20,6 +20,8 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+
+
     <!-- swiper js  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -175,6 +177,15 @@
             font-weight: 500 !important;
         }
 
+        .banner {
+            display: block;
+        }
+
+        .mob-banner {
+            display: none;
+            padding: 0px;
+        }
+
         @media only screen and (max-width: 600px) {
 
 
@@ -190,6 +201,15 @@
             .navbar-toggler {
                 border-color: white;
                 margin-right: 10px;
+            }
+
+            .banner {
+                display: none;
+            }
+
+            .mob-banner {
+                display: block;
+                padding: 0px;
             }
 
             .nav-container {
@@ -224,8 +244,8 @@
                 display: none !important;
             }
 
-            .header-cont {
-                display: none !important;
+            .tis_test_col {
+                margin-top: 30px !important;
             }
 
 
@@ -454,6 +474,10 @@
             border-bottom-left-radius: 13px !important;
             border-bottom-right-radius: 13px !important;
         }
+
+        .navbar-toggler {
+            background: white;
+        }
     </style>
 </head>
 
@@ -469,7 +493,7 @@
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
 
-                    <span><i class="fas fa-bars" style="color:white"></i></span>
+                    <span><img src="./image/bars-solid.svg" width="20" height="20" /></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -478,16 +502,16 @@
                             <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./about.php">Service</a>
+                            <a class="nav-link" href="./#service">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./service.php">Transformation</a>
+                            <a class="nav-link" href="./#Transformations">Transformation</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.php">Testimonials</a>
+                            <a class="nav-link" href="./#testimonial">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./blog.php">FAQ</a>
+                            <a class="nav-link" href="./#faqframe">FAQ</a>
                         </li>
                     </ul>
                     <div class="d-flex header-cont align-items-center">
@@ -503,48 +527,40 @@
     </header>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">MAKE AN <span class="span_title">
-                            APPOINMENT
-                        </span></h5>
-                    <img src="./image/popup.png" class="pop_upicon ms-auto" alt="">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content ">
+                <div class="modal-header justify-content-between">
+                    <h5 class="modal-title">Book an Appointment</h5>
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-5">
-                            <img src="./image/popl.webp" class="img-fluid pop_upimg" alt="">
-                        </div>
-                        <div class="col-md-7">
+
+                        <div class="col-md-11 mx-auto">
                             <form action="#" method="post">
                                 <div class="row">
-                                    <div class="col-md-6 mt-3">
+                                    <div class="col-md-12 mt-3">
                                         <label for="name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="email" placeholder="Full name">
-                                    </div>
-                                    <div class="col-md-6 mt-3">
-                                        <label for="phone" class="form-label">Phone</label>
-                                        <input type="tel" class="form-control" id="email" placeholder="Enter Phone No">
-                                    </div>
-                                    <div class="col-md-6 mt-3">
-                                        <label for="date" class="form-label">Date</label>
-                                        <input type="date" class="form-control" id="email" placeholder="Full name">
-                                    </div>
-                                    <div class="col-md-6 mt-3">
-                                        <label for="name" class="form-label">Service</label>
-                                        <input type="text" class="form-control" id="email" placeholder="Enter Service">
+                                        <input type="text" class="form-control" id="email" placeholder="Full name"
+                                            required>
                                     </div>
                                     <div class="col-md-12 mt-3">
-                                        <label for="message" class="form-label">Message</label>
-                                        <textarea name="message" class="form-control" rows="3" cols="" id=""></textarea>
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" class="form-control" id="email" placeholder="Enter Phone No"
+                                            required>
                                     </div>
-                                    <div class="col-md-6 mt-3 position-relative">
-                                        <i class="fas fa-map-marker-alt position-absolute icon-select ms-3"></i>
-                                        <select class="form-select ps-5" aria-label="Default select example"
-                                            id="validationCustom04">
-                                            <option selected>Select Location</option>
+                                    <div class="col-md-12 mt-3">
+                                        <label for="date" class="form-label">Date</label>
+                                        <input type="date" class="form-control" id="email" placeholder="Full name"
+                                            required>
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <label for="date" class="form-label">Choose Branch</label>
+
+                                        <select class="form-select " aria-label="Default select example"
+                                            id="validationCustom04" required>
                                             <option value="Anna nagar">Anna nagar</option>
                                             <option value="Adyar">Adyar</option>
                                         </select>
@@ -552,8 +568,13 @@
                                             Please select a location
                                         </div>
                                     </div>
+                                    <div class="col-md-12 mt-3">
+                                        <label for="message" class="form-label">Type your skin concern</label>
+                                        <textarea name="message" class="form-control" rows="3" cols="" id=""></textarea>
+                                    </div>
 
-                                    <div class="col-md-6 ms-auto mt-3">
+
+                                    <div class="col-md-6  mt-3">
                                         <button class="btn btn_pop" type="submit">Confirm Appointment</button>
                                     </div>
                                 </div>
@@ -611,8 +632,13 @@
         </div>
     </div>
 
+    <!-- mobile banner -->
+    <div class="container-fluid mob-banner">
+        <img src="./image/mobban.webp" class="img-fluid" alt="best clinic ">
+    </div>
+
     <!-- Ultimate Transformation Package -->
-    <div class="container my-5">
+    <div class="container my-5" id="service">
         <div class="row">
             <h1 class="utp_head ">
                 What we have in this Ultimate Transformation Package?
@@ -721,7 +747,7 @@
 
     <!-- Before and After Transformations -->
 
-    <div class="container my-5">
+    <div class="container my-5" id="Transformations">
         <div class="row">
             <h1 class="utp_head ">
                 Before and After Transformations
@@ -746,7 +772,7 @@
 
     <!-- This could be you! -->
 
-    <div class="container-fluid my-5 this_testimonial">
+    <div class="container-fluid my-5 this_testimonial" id="testimonial">
         <div class="row p-5">
             <h1>This could be you!</h1>
 
@@ -866,241 +892,279 @@
         background: #CDB167;
     }
 </style>
- <!-- ---start FAQ frame------------ -->
- <div class="container" id="faqframe">
+<!-- ---start FAQ frame------------ -->
+<div class="container" id="faqframe">
     <h1>FAQ’s</h1>
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      Laser Hair Removal
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>1. Is laser hair removal permanent?</strong> 
-        <p>Laser hair removal significantly reduces hair growth, and in many cases, results in permanent hair reduction. However, occasional maintenance sessions may be needed.</p>
-        <strong>2. How many sessions do I need for best results?</strong> 
-        <p>Most clients require 6-8 sessions depending on hair type, skin tone, and the area being treated.</p>
-        <strong>3. Does laser hair removal hurt?</strong> 
-        <p>The treatment is virtually painless, with only a mild warming sensation. Advanced cooling technology ensures maximum comfort.</p>
-        <strong>4. Is it safe for all skin types?</strong> 
-        <p>Yes! Our laser technology is safe and effective for all skin tones and hair types.</p>
-        <strong>5. Are there any side effects?</strong> 
-        <p>Temporary redness or slight swelling may occur but usually subsides within a few hours.</p>
-       
-    
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Laser Hair Removal
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>1. Is laser hair removal permanent?</strong>
+                    <p>Laser hair removal significantly reduces hair growth, and in many cases, results in permanent
+                        hair reduction. However, occasional maintenance sessions may be needed.</p>
+                    <strong>2. How many sessions do I need for best results?</strong>
+                    <p>Most clients require 6-8 sessions depending on hair type, skin tone, and the area being treated.
+                    </p>
+                    <strong>3. Does laser hair removal hurt?</strong>
+                    <p>The treatment is virtually painless, with only a mild warming sensation. Advanced cooling
+                        technology ensures maximum comfort.</p>
+                    <strong>4. Is it safe for all skin types?</strong>
+                    <p>Yes! Our laser technology is safe and effective for all skin tones and hair types.</p>
+                    <strong>5. Are there any side effects?</strong>
+                    <p>Temporary redness or slight swelling may occur but usually subsides within a few hours.</p>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Is microblading painful?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What should I expect after the treatment?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    Is microblading safe for all skin types??
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      Is microblading painful?
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      What should I expect after the treatment?
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-      Is microblading safe for all skin types??
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 <style>
-    #faqframe{
+    #faqframe {
         margin: 3rem auto;
     }
+
     .accordion {
         margin-top: 3rem;
     }
 
     .accordion-button:not(.collapsed) {
-        background-color: #DDAB07 ;
-        box-shadow:none;
-        color:#FFFFFF;
-        font-size:25px;
-        font-weight:600;
+        background-color: #DDAB07;
+        box-shadow: none;
+        color: #FFFFFF;
+        font-size: 25px;
+        font-weight: 600;
     }
-    .accordion-body{
-        font-size:19px;
+
+    .accordion-body {
+        font-size: 19px;
     }
-    .accordion-button{
-        font-size:25px;
+
+    .accordion-button {
+        font-size: 25px;
     }
 </style>
 <!-- ---end FAQ frame------------ -->
 <!-- ---start counter frame------------ -->
 <div class="background-container" id="counterframe">
-        <div class="content">
-            <div class="row">
-                <div class="column" id="colunm1">
+    <div class="content">
+        <div class="row">
+            <div class="column" id="colunm1">
                 <p style="visibility:hidden">Offer Expires in</p>
-                    <h1 class="text">Special Discount</h1>
-                    <button type="button" class="btn btn-secondary" id="limitbutton">Limited Time Only!</button>
-                </div>
-                <div class="column" id="colunm2">
-              <p>Offer Expires in</p>
-<div class="clock-container">
-  <div class="clock-col" style="display:none">
-    <div class="clock-days clock-timer">&nbsp;</div>
-    <div class="clock-label label-days">
-      Days
-    </div>
-  </div>
-  <div class="clock-col">
-    <div class="clock-hours clock-timer">&nbsp;</div>
-    <div class="clock-label label-hour">
-      Hours
-    </div>
-  </div>
-  <div class="clock-col">
-    <div class="clock-minutes clock-timer">&nbsp;</div>
-    <div class="clock-label label-minutes">
-      Minutes
-    </div>
-  </div>
-  <div class="clock-col">
-    <div class="clock-seconds clock-timer">&nbsp;</div>
-    <div class="clock-label label-seconds">
-      Seconds
-    </div>
-  </div>
-  <button type="button" class="btn btn-secondary" id="bookbutton">Book an Appointment</button>
-</div>
-
-                </div>
-                
+                <h1 class="text">Special Discount</h1>
+                <button type="button" class="btn btn-secondary" id="limitbutton">Limited Time Only!</button>
             </div>
+            <div class="column" id="colunm2">
+                <p>Offer Expires in</p>
+                <div class="clock-container">
+                    <div class="clock-col" style="display:none">
+                        <div class="clock-days clock-timer">&nbsp;</div>
+                        <div class="clock-label label-days">
+                            Days
+                        </div>
+                    </div>
+                    <div class="clock-col">
+                        <div class="clock-hours clock-timer">&nbsp;</div>
+                        <div class="clock-label label-hour">
+                            Hours
+                        </div>
+                    </div>
+                    <div class="clock-col">
+                        <div class="clock-minutes clock-timer">&nbsp;</div>
+                        <div class="clock-label label-minutes">
+                            Minutes
+                        </div>
+                    </div>
+                    <div class="clock-col">
+                        <div class="clock-seconds clock-timer">&nbsp;</div>
+                        <div class="clock-label label-seconds">
+                            Seconds
+                        </div>
+                    </div>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="btn btn-secondary" id="bookbutton">Book an Appointment</button>
+                </div>
+
+            </div>
+
         </div>
     </div>
-    <style>
-        .clock-container{
-            position: relative;
-            display: flex;
-            gap: 51px;
-    justify-content: center;
-    border-radius: 8px;
-    color: #FFFFFF;
-    background-color: #000000;
-    margin: auto;
-    padding:3rem;
+</div>
+<style>
+    .clock-container {
+        position: relative;
+        display: flex;
+        gap: 51px;
+        justify-content: center;
+        border-radius: 8px;
+        color: #FFFFFF;
+        background-color: #000000;
+        margin: auto;
+        padding: 3rem;
 
-    width: 75%;
-        }
-        #bookbutton{
-            position: absolute;
-            padding: 12px 15px;
-    width: 70%;
-            bottom: -18px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #FFFFFF;
-            background-color: #DDAB07;
-            text-transform: uppercase;
-            border-radius:0px;
-            border: none;
+        width: 75%;
+    }
 
-        }
-        .clock-timer{
-            font-size:55px;
-            font-weight:bold;
-        }
-#colunm2{
-    text-align: center !important;
-}
-#colunm2 p{
-    font-size: 28px;
-}
-        .text{
-            font-size: 60px;
-        }
-        /* Parent container with background image */
-        .background-container {
-            background: url('./image/timerbanner.webp') no-repeat center center/cover;
-            width: 100%;
-           
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
+    #bookbutton {
+        position: absolute;
+        padding: 12px 15px;
+        width: 70%;
+        bottom: -18px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #FFFFFF;
+        background-color: #DDAB07;
+        text-transform: uppercase;
+        border-radius: 0px;
+        border: none;
 
-        /* Inner content */
-        #counterframe .content {
-            width: 98%;
-            max-width: 1200px;
-          
-            padding: 20px;
-      
-        }
+    }
 
-        /* Row styling */
+    .clock-timer {
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    #colunm2 {
+        text-align: center !important;
+    }
+
+    #colunm2 p {
+        font-size: 28px;
+    }
+
+    .text {
+        font-size: 60px;
+    }
+
+    /* Parent container with background image */
+    .background-container {
+        background: url('./image/timerbanner.webp') no-repeat center center/cover;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    /* Inner content */
+    #counterframe .content {
+        width: 98%;
+        max-width: 1200px;
+
+        padding: 20px;
+
+    }
+
+    /* Row styling */
+    #counterframe .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* Column styling */
+    #counterframe .column {
+        flex: 1;
+        min-width: 250px;
+        padding: 20px;
+
+        text-align: left;
+    }
+
+    #limitbutton {
+        padding: 13px 16px;
+        margin-top: 2rem;
+        background-color: #FFF4D6;
+        color: #122132;
+        border: 1px solid #000000;
+        font-weight: bold;
+    }
+
+    #colunm1 {
+        font-weight: bold;
+    }
+
+    .clock-label {
+        color: #FFC877;
+        text-transform: uppercase;
+    }
+
+    @media (max-width: 768px) {
         #counterframe .row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
+            flex-direction: column;
         }
 
-        /* Column styling */
-       #counterframe .column {
-            flex: 1;
-            min-width: 250px;
-            padding: 20px;
-         
-            text-align: left;
-        }
-        #limitbutton{
-            padding: 13px 16px;
-            margin-top:2rem;
-            background-color: #FFF4D6;
-            color:#122132;
-            border:1px solid #000000;
-            font-weight:bold;
-        }
-        #colunm1{
-            font-weight:bold;
-        }
-.clock-label{
-    color: #FFC877;
-    text-transform: uppercase;
-}
-        @media (max-width: 768px) {
-            #counterframe    .row {
-                flex-direction: column;
-            }
-            .text{
+        .text {
             font-size: 40px;
         }
-        .clock-timer{
-            font-size:35px;
+
+        .clock-timer {
+            font-size: 35px;
         }
-        }
-    </style>
+    }
+</style>
 <!-- ---end counter frame------------ -->
 
 <footer>
@@ -1108,11 +1172,11 @@
         <div class="row footer-row">
             <div class="col-md-3 footer-cardfirst">
                 <img src="./image/kimaya_logo.png" class="img-fluid footer-logo" alt="">
-                <p class="footer-logo-cont mt-5">
+                <p class="footer-logo-cont my-4">
                     Take the first step towards achieving your beauty goals with expert care at Kimaya Clinique
                 </p>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="booknow-btn">
-                    Book Appointment
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="booknow-btn ">
+                    Book an Appointment
                 </a>
             </div>
             <div class="col-md-3 footer-cardsec">
@@ -1286,9 +1350,33 @@
             const name = document.querySelector('input[placeholder="Full name"]').value;
             const phone = document.querySelector('input[placeholder="Enter Phone No"]').value;
             const date = document.querySelector('input[type="date"]').value;
-            const service = document.querySelector('input[placeholder="Enter Service"]').value;
             const message = document.querySelector('textarea[name="message"]').value;
             const location = document.querySelector('select').value;
+
+
+            // Validate required fields
+            if (!name) {
+                alert("Please enter your full name.");
+                return;
+            }
+
+            if (!phone) {
+                alert("Please enter your phone number.");
+                return;
+            } else if (!/^\d{10}$/.test(phone)) {
+                alert("Please enter a valid 10-digit phone number.");
+                return;
+            }
+
+            if (!date) {
+                alert("Please select a date.");
+                return;
+            }
+
+            if (!location) {
+                alert("Please select a valid location.");
+                return;
+            }
 
             // Determine WhatsApp number based on location
             let whatsappNumber;
@@ -1302,7 +1390,7 @@
             }
 
             // Construct the WhatsApp message
-            const whatsappMessage = `This appointment is from the website.\n\nHello, I would like to confirm my appointment. \n\nName: ${name}\nPhone: ${phone}\nDate: ${date}\nService: ${service}\nMessage: ${message}\nLocation: ${location}`;
+            const whatsappMessage = `This appointment is from the Landing Page.\n\nHello, I would like to confirm my appointment. \n\nName: ${name}\nPhone: ${phone}\nDate: ${date}\nMessage: ${message}\nLocation: ${location}`;
 
             // Open WhatsApp with the drafted message
             const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
@@ -1330,66 +1418,66 @@
 </script>
 <script>
     window.onload = function () {
-  const controller = new AbortController();
-  // Set the date we're counting down to
-  const countDownDate = new Date("Feb 27, 2026 08:30:00").getTime();
-  const clockDaysElement = document.querySelector(".clock-days");
-  const clockHoursElement = document.querySelector(".clock-hours");
-  const clockMinutesElement = document.querySelector(".clock-minutes");
-  const clockSecondsElement = document.querySelector(".clock-seconds");
-  // Create an animation callback every second:
-  animationInterval(1000, controller.signal, (time) => {
-    // Get today's date and time
-    let now = new Date().getTime();
+        const controller = new AbortController();
+        // Set the date we're counting down to
+        const countDownDate = new Date("Feb 27, 2026 08:30:00").getTime();
+        const clockDaysElement = document.querySelector(".clock-days");
+        const clockHoursElement = document.querySelector(".clock-hours");
+        const clockMinutesElement = document.querySelector(".clock-minutes");
+        const clockSecondsElement = document.querySelector(".clock-seconds");
+        // Create an animation callback every second:
+        animationInterval(1000, controller.signal, (time) => {
+            // Get today's date and time
+            let now = new Date().getTime();
 
-    // Find the distance between now and the count down date
-    let distance = countDownDate - now;
+            // Find the distance between now and the count down date
+            let distance = countDownDate - now;
 
-    // Time calculations for days, hours, minutes and seconds
-    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    let hours = Math.floor(
-      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            // Time calculations for days, hours, minutes and seconds
+            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            let hours = Math.floor(
+                (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Display the results
-    clockDaysElement.textContent = days;
-    clockHoursElement.textContent = hours;
-    clockMinutesElement.textContent = minutes;
-    clockSecondsElement.textContent = seconds;
+            // Display the results
+            clockDaysElement.textContent = days;
+            clockHoursElement.textContent = hours;
+            clockMinutesElement.textContent = minutes;
+            clockSecondsElement.textContent = seconds;
 
-    // If the count down is finished, write some text
-    if (distance < 0) {
-      controller.abort();
-      document.querySelector(".clock-container").innerHTML = "EXPIRED";
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                controller.abort();
+                document.querySelector(".clock-container").innerHTML = "EXPIRED";
+            }
+        });
+    };
+
+    function animationInterval(ms, signal, callback) {
+        // Prefer currentTime, as it'll better sync animtions queued in the
+        // same frame, but if it isn't supported, performance.now() is fine.
+        const start = document.timeline
+            ? document.timeline.currentTime
+            : performance.now();
+
+        function frame(time) {
+            if (signal.aborted) return;
+            callback(time);
+            scheduleFrame(time);
+        }
+
+        function scheduleFrame(time) {
+            const elapsed = time - start;
+            const roundedElapsed = Math.round(elapsed / ms) * ms;
+            const targetNext = start + roundedElapsed + ms;
+            const delay = targetNext - performance.now();
+            setTimeout(() => requestAnimationFrame(frame), delay);
+        }
+
+        scheduleFrame(start);
     }
-  });
-};
-
-function animationInterval(ms, signal, callback) {
-  // Prefer currentTime, as it'll better sync animtions queued in the
-  // same frame, but if it isn't supported, performance.now() is fine.
-  const start = document.timeline
-    ? document.timeline.currentTime
-    : performance.now();
-
-  function frame(time) {
-    if (signal.aborted) return;
-    callback(time);
-    scheduleFrame(time);
-  }
-
-  function scheduleFrame(time) {
-    const elapsed = time - start;
-    const roundedElapsed = Math.round(elapsed / ms) * ms;
-    const targetNext = start + roundedElapsed + ms;
-    const delay = targetNext - performance.now();
-    setTimeout(() => requestAnimationFrame(frame), delay);
-  }
-
-  scheduleFrame(start);
-}
 
 </script>
 
