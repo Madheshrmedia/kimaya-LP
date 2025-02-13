@@ -1690,7 +1690,7 @@
         margin: auto;
         padding: 3rem;
 
-        width: 75%;
+        width: 100%;
     }
 
     #bookbutton {
