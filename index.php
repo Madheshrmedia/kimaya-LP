@@ -914,6 +914,7 @@
 		</div>
 	</div>
 </section>
+
 <style>
     .base-template__wrapper {
 	max-width: 1560px;
@@ -1368,6 +1369,22 @@
 
 </script>
 <!-- ---end slider frame------------ -->
+<div class="buttongrp">
+<button type="button" class="btn btn-secondary" id="buttonbook" data-bs-toggle="modal" data-bs-target="#exampleModal">Book an Appointment</button>
+</div>
+<style>
+    .buttongrp{
+        text-align:center;
+    }
+    #buttonbook{
+        font-size: 18px;
+    background-color: #DDAB07;
+    color: #FFFFFF;
+    border:1px solid #FAD064;
+    padding: 8px 20px;
+    border-radius:0 !important;
+    }
+</style>
  <!-- ---start FAQ frame------------ -->
  <div class="container" id="faqframe">
     <h1>FAQ’s</h1>
@@ -1398,37 +1415,69 @@
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      Is microblading painful?
+      Glutathione IV
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+      <strong>1. What is Glutathione IV therapy?</strong> 
+      <p>Glutathione IV is a powerful antioxidant treatment that detoxifies the body, boosts the immune system, and brightens the skin.</p>
+      <strong>2. How does it improve skin?</strong> 
+      <p>It helps reduce pigmentation, dark spots, and dullness, giving you a radiant, even skin tone.</p>
+      <strong>3. How many sessions do I need for visible results?</strong> 
+      <p>Most clients see improvements within 4-6 sessions, but results vary based on individual skin conditions.</p>
+      <strong>4. Is Glutathione IV safe?</strong> 
+      <p>Yes, it is completely safe when administered by professionals.</p>
+      <strong>5. Can it be combined with other treatments?</strong> 
+      <p>Yes! Glutathione IV works well with PRP, laser treatments, and facials for enhanced skin health.</p>
+          </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      What should I expect after the treatment?
+      PRP for Hair
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+        <strong>1. How does PRP help with hair loss?</strong>
+        <p>PRP (Platelet-Rich Plasma) is extracted from your own blood and injected into the scalp to stimulate hair follicles, strengthen roots, and promote regrowth.</p>
+        <strong>2. How many PRP sessions are needed for hair regrowth?</strong>
+        <p>A minimum of 3-6 sessions, spaced 4 weeks apart, is recommended for visible improvements.</p>
+        <strong>3. Is PRP treatment painful?</strong>
+        <p>PRP involves minimal discomfort, and a numbing cream is applied to make the procedure comfortable.</p>
+        <strong>4. Are the results permanent?</strong>
+        <p>PRP slows hair loss and stimulates new growth, but maintenance sessions may be needed.</p>
+        <strong>5. Can PRP be combined with other treatments?</strong>
+        <p>Yes! PRP works best when combined with laser therapy, medications, or hair growth serums.</p>
+         </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-      Is microblading safe for all skin types??
+      PRP for Face (Vampire Facial)
       </button>
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+        <strong>1. What is a PRP facial?</strong>
+        <p>PRP facial uses your own plasma to boost collagen production, reduce fine lines, and improve skin texture.</p>
+        <strong>2. What are the benefits of PRP for the face?</strong>
+        <p><ul>
+            <li>Reduces fine lines and wrinkles</li>
+            <li>Improves skin elasticity and texture</li>
+            <li>Minimizes acne scars and pigmentation</li>
+            <li>Promotes a radiant, youthful glow</li>
+        </ul></p>
+        <strong>3. How many PRP facial sessions do I need?</strong>
+        <p>For best results, 3-4 sessions are recommended.</p>
+        <strong>4. Is there downtime after PRP facial?</strong>
+        <p>There is minimal downtime. Expect slight redness for 24-48 hours before your skin starts glowing!</p>
+        <strong>5. Who is the best candidate for PRP facial?</strong>
+        <p>Anyone looking to rejuvenate skin, improve texture, and reduce signs of aging is a great candidate.</p>
+           </div>
     </div>
   </div>
 </div>
@@ -1492,7 +1541,7 @@
       Seconds
     </div>
   </div>
-  <button type="button" class="btn btn-secondary" id="bookbutton">Book an Appointment</button>
+  <button type="button" class="btn btn-secondary" id="bookbutton" data-bs-toggle="modal" data-bs-target="#exampleModal">Book an Appointment</button>
 </div>
 
                 </div>
